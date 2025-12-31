@@ -11,7 +11,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 mb-12 md:mb-16">
           {/* Image */}
-          <div className="flex justify-center items-center order-2 lg:order-1">
+          <div className="hidden lg:flex justify-center items-center order-2 lg:order-1">
             <div className="relative w-full max-w-xs md:max-w-sm lg:max-w-md">
               <div className="absolute -inset-2 md:-inset-4 bg-primary border-4 md:border-6 border-black transform -rotate-6"></div>
               <img
